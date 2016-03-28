@@ -1,6 +1,7 @@
-### Pamach
+## Pamach
 
 Function to match against stuff.
+
 Inspired by:
 * [Replacing switch statements with Object literals](https://toddmotto.com/deprecating-the-switch-statement-for-object-literals/)
 * [Rust match syntax](https://doc.rust-lang.org/book/match.html)
@@ -54,12 +55,12 @@ const collegue = match(person) ({
   'Fox Malder': () => {
     return { firstName: 'Dana', lastName: 'Scully' }
   }
-})
+});
 
 console.log(collegue); // -> { firstName: 'Jonny', lastName: 'Ive' }
 ```
 
-API:
+### API:
 #### `match([args])` -> Function
 Takes any number of args and returns new function
 #### `fn(spec)` -> Any
