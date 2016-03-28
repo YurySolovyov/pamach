@@ -1,0 +1,25 @@
+{
+  "name": "pamach",
+  "version": "0.1.0",
+  "description": "Pattern matching utility.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YuriSolovyov/pamach.git"
+  },
+  "keywords": [
+    "pattern",
+    "matching",
+    "switch",
+    "object"
+  ],
+  "author": "YuriSolovyov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/YuriSolovyov/pamach/issues"
+  },
+  "homepage": "https://github.com/YuriSolovyov/pamach"
+}
