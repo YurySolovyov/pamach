@@ -1,5 +1,4 @@
-## Pamach
-
+## Pamach ![Codeship CI status](https://codeship.com/projects/1dd11030-dbd6-0133-f779-4a138adef231/status?branch=master)
 Function to match against stuff.
 
 Inspired by:
