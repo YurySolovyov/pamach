@@ -62,13 +62,13 @@ console.log(collegue); // -> { firstName: 'Jonny', lastName: 'Ive' }
 
 ### API:
 #### `match([args])` -> Function
-Takes any number of args and returns new function
-#### `fn(spec)` -> Any
+Takes any number of args and returns new `matcher` function
+#### `matcher(spec)` -> Any
 that takes `spec` object to map `args` separated by `', '` (coma + space) as
 key to corresponding function, so value returned by this function becomes the
-return value of `fn(spec)`.
+return value of `matcher`.
 
-If no key found for given set of `args`, `fn(spec)` tries to find default key in
+If no key found for given set of `args`, `matcher` tries to find default key in
 the `spec` object and call its value.
 
 If no `default` key found, `undefined` is returned.
