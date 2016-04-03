@@ -44,11 +44,11 @@ Accepts anything that implements `.toString`:
 ```js
 const person = {
   firstName: 'Steve',
-  lastName: 'Jobs'
-  toString: () => { return `${this.firstName} ${this.lastName}` }
+  lastName: 'Jobs',
+  toString: function() { return `${this.firstName} ${this.lastName}` }
 };
 
-const collegue = match(person) ({
+const collegue = match(person)({
   'Steve Jobs': () => {
     return { firstName: 'Jonny', lastName: 'Ive' }
   },
