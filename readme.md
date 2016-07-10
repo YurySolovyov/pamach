@@ -1,4 +1,6 @@
-## Pamach ![Codeship CI status](https://codeship.com/projects/1dd11030-dbd6-0133-f779-4a138adef231/status?branch=master) [![npm version](https://badge.fury.io/js/pamach.svg)](https://badge.fury.io/js/pamach)
+## Pamach 
+[![Codeship CI status](https://img.shields.io/codeship/1dd11030-dbd6-0133-f779-4a138adef231.svg?maxAge=2592000)](https://codeship.com/projects/143965)
+[![npm version](https://badge.fury.io/js/pamach.svg)](https://badge.fury.io/js/pamach)
 
 Function to match against stuff.
 
